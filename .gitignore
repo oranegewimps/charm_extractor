@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# 実行時に作られるデータ（録画動画・解析結果・Geminiの応答は個人のデータなので公開しない）
+cache/
+outputs/
+uploads/
+*.mp4
+*.mov
+*.mkv
+*.csv
+
+# 環境変数ファイル（APIキーを置く場合に備えて）
+.env
