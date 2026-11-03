@@ -1,5 +1,7 @@
 # charm_extractor
 
+[![test](https://github.com/oranegewimps/charm_extractor/actions/workflows/test.yml/badge.svg)](https://github.com/oranegewimps/charm_extractor/actions/workflows/test.yml)
+
 **ゲーム画面の録画から、護石（装備アイテム）の一覧表を自動で作るツール**
 
 モンスターハンターワイルズ（MHWilds）では護石を大量に集めることになりますが、ゲーム内の並べ替えや絞り込みは機能が限られています。このツールは、護石の「装備詳細」画面を順番に映した録画動画を Gemini API で読み取り、1つの護石＝1行の CSV にします。スプレッドシートで自由に並べ替え・フィルタできるようになります。
